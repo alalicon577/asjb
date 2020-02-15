@@ -32,6 +32,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
+    "@angular/cli": "^9.0.2",
     "@types/jasmine": "2.5.36",
     "@types/node": "^10.1.2",
     "angular2-template-loader": "^0.6.0",
