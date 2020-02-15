@@ -9,7 +9,7 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class MyContentComponent {
 
-    faqList: string[] = [];
+    faqList: string[] = ["1","2"];
     closeResult: string;
     constructor(private modalService: NgbModal) { }
 

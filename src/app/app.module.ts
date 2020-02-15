@@ -8,11 +8,12 @@ import {HomePageComponent} from '../app/home/home';
 import {MyGroupComponent} from '../app/mygroup/mygroup';
 import {FooterComponent} from '../app/footer/footer';
 import { AppRoutingModule }     from './app.app-routing.module';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 declare var require: any;
 
 @NgModule({
   imports: [
-    BrowserModule,NgbModule.forRoot(), FormsModule,
+    BrowserModule,NgbModule.forRoot(), FormsModule, AngularFontAwesomeModule,
     AppRoutingModule
   ],
   declarations: [
