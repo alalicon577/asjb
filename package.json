@@ -9,6 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@angular-devkit/schematics": "^9.0.2",
     "@angular/common": "~5.2.0",
     "@angular/compiler": "~5.2.0",
     "@angular/core": "~5.2.0",
